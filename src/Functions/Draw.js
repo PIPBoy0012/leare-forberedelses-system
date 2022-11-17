@@ -5,6 +5,7 @@ function Draw() {
         return;
     }
     const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // set line stroke and line width
     ctx.strokeStyle = 'red';
@@ -12,7 +13,7 @@ function Draw() {
 
     // draw a red line
     ctx.beginPath();
-    ctx.moveTo(100, 100);
+    ctx.moveTo(400, 200);
     ctx.lineTo(300, 100);
     ctx.stroke();
 

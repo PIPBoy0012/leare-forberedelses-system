@@ -9,7 +9,7 @@ function DrawingBoard(){
             <canvas id="canvas" height="500" width="500">
 
             </canvas>
-            <button id ="drawbtn" onClick={Draw()}>Draw</button>
+            <button id ="drawbtn" onClick={Draw}>Draw</button>
 
         </div>
     );
