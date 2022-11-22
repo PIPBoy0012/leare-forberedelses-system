@@ -5,10 +5,10 @@ function Navbar(){
         
         <div>
             <ul>
-                <li><a href="#MainPage" onClick={navigate()}>Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#MainPage" onClick={navigate()}>MainPage</a></li>
+                <li><a href="#MineForløb">MineForløb</a></li>
+                <li><a href="#Forløb">Forløb</a></li>
+                <li><a href="#Profil">Profil</a></li>
             </ul>
         </div>
 
