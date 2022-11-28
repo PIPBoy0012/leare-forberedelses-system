@@ -7,12 +7,9 @@ function App() {
     <div className="App">
       <Navbar/>
       <header className="App-header">
-        
-        <img src={logo} className="App-logo noselect" alt="logo" />
-        
-
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Under Development, Bugs may accur.
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          We Use React
+          Learn React
         </a>
       </header>
     </div>
