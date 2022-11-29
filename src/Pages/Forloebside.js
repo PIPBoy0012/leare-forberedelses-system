@@ -2,7 +2,7 @@ import Object from "../Components/Test";
 
 function Forloebsside(){
     return(
-        <div className="w-full h-full">
+        <div id="ForloebsideDiv" className="w-full h-full ">
             <Object />
             <Object />
             <Object />
