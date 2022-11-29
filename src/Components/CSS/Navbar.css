@@ -17,7 +17,7 @@ ul {
     
   }
   
-  li a {
+  .LiA {
     display: block;
     color: white;
     text-align: center;
@@ -26,7 +26,7 @@ ul {
     
   }
   
-  li a:hover:not(.active) {
+  .LiA:hover:not(.active) {
     background-color: #111;
     border-radius: 1ex;
   }

@@ -1,14 +1,15 @@
 import './CSS/Navbar.css';
+import {Link} from 'react-router-dom';
 
 function Navbar(){
     return(
         
-        <div>
+        <div className='z-auto'>
             <ul>
-                <li><a href="#MainPage" onClick={navigate()}>MainPage</a></li>
-                <li><a href="#MineForløb">MineForløb</a></li>
-                <li><a href="#Forløb">Forløb</a></li>
-                <li><a href="#Profil">Profil</a></li>
+                <li><Link className='LiA' to="/Home">Home </Link></li>
+                <li><Link className='LiA' to="/Drawing">Drawing Test</Link></li>
+                <li><Link className='LiA' to="/Home">About</Link></li>
+                <li><Link className='LiA' to="/Home">Forløb</Link></li>
             </ul>
         </div>
 
