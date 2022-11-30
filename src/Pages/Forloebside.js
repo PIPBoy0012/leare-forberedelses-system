@@ -1,4 +1,5 @@
 import Object from "../Components/Test";
+import Sidepanel from "../Components/Sidepanel";
 
 function Forloebsside(){
     return(
@@ -8,6 +9,7 @@ function Forloebsside(){
             <Object />
             <Object />
             <Object />
+            <Sidepanel />
         </div>
     );
 }
