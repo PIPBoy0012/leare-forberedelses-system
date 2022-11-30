@@ -1,4 +1,4 @@
-import Draw from "../Functions/Draw";
+        import Draw from "../Functions/Draw";
 
 function DrawingBoard(){
     

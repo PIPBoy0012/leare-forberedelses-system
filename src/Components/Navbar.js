@@ -8,7 +8,7 @@ function Navbar(){
             <ul>
                 <li><Link className='LiA' to="/Home">Home </Link></li>
                 <li><Link className='LiA' to="/Drawing">Drawing Test</Link></li>
-                <li><Link className='LiA' to="/About">About</Link></li>
+                <li><Link className='LiA' to="/FlowTest">FlowTest</Link></li>
                 <li><Link className='LiA' to="/Forløb">Forløb</Link></li>
             </ul>
         </div>

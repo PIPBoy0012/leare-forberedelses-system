@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import DrawingBoard from './Components/DrawingBoard';
 import Forloebsside from './Pages/Forloebside';
 import {Route, Routes} from "react-router-dom";
+import DnDFlow from './Pages/rFlowTestPage';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path='/Home' element={""}/>
           <Route path='/Drawing' element={<DrawingBoard />}/>
-          <Route path='/About' element={""}/>
+          <Route path='/FlowTest' element={<DnDFlow/>}/>
           <Route path='/Forløb' element={<Forloebsside />}/>
         </Routes>
       </body>
