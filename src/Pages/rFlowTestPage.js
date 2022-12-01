@@ -10,7 +10,8 @@ import 'reactflow/dist/style.css';
 
 import Sidebar from '../Components/Sidebar';
 
-import "../index.css"
+import "../index.css";
+
 
 const initialNodes = [
   {
