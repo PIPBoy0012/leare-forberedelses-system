@@ -19,6 +19,11 @@ const initialNodes = [
     data: { label: "input node" },
     position: { x: 250, y: 5 },
   },
+  {
+    id:'4',
+    position:{x:300,y:300},
+    type:'textUpdater',
+  }
 ];
 
 let id = 0;
@@ -78,6 +83,7 @@ const DnDFlow = () => {
             onNodesChange={onNodesChange}
             onEdgesChange={onEdgesChange}
             onConnect={onConnect}
+            nodeTypes={nodeTypes}
             onInit={setReactFlowInstance}
             onDrop={onDrop}
             onDragOver={onDragOver}
