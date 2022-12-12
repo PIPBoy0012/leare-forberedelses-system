@@ -22,9 +22,52 @@ code {
 }
  
 
+.Customnode
+{
+  z-index: 9;
+  cursor: move;
+  background-color: #fff;
+  text-align: center;
+  width: 135px;
+  height: 120px;
+  border-radius: 15px;
+  font-weight: bolder;
+}
 
+.Customnodeinput
+{
+  z-index: 9;
+  cursor: move;
+  background-color: #fff;
+  text-align: center;
+  width: 135px;
+  height: 70px;
+  border-radius: 15px;
+  font-weight: bolder;
+}
 
+.nodenavn
+{
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #0041d0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+}
 
+.nodenavninput
+{
+  cursor: move;
+  z-index: 10;
+  background-color: #0041d0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+  width: 120px;
+  text-align: center;
+}
 
 
 .dndflow {
@@ -38,7 +81,7 @@ code {
   border-right: 1px solid #eee;
   padding: 15px 10px;
   font-size: 12px;
-  background: #fcfcfc;
+  background: #d7dbd9;
 }
 
 .dndflow aside .description {

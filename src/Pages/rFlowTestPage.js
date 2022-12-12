@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef, useCallback, useMemo } from 'react';
 import ReactFlow, {
   ReactFlowProvider,
   addEdge,
@@ -10,9 +10,10 @@ import 'reactflow/dist/style.css';
 import Sidebar from '../Components/Sidebar';
 import "../index.css";
 
-import LokaleNode from '../Components/CustomNodes/Lokaler';
+import { LokaleNode } from '../Components/CustomNodes/Lokaler';
+import { TextInputNode } from '../Components/CustomNodes/Customnodes';
 
-const nodeTypes = { Lokale: LokaleNode };
+const nodeTypes = { textUpdater: LokaleNode };
 
 const initialNodes = [
   {
@@ -21,6 +22,11 @@ const initialNodes = [
     data: { label: 'input node' },
     position: { x: 250, y: 5 },
   },
+  {
+    id:'4',
+    position:{x:300,y:300},
+    type:'textUpdater',
+  }
 ];
 
 let id = 0;
@@ -77,6 +83,7 @@ const DnDFlow = () => {
             onNodesChange={onNodesChange}
             onEdgesChange={onEdgesChange}
             onConnect={onConnect}
+            nodeTypes={nodeTypes}
             onInit={setReactFlowInstance}
             onDrop={onDrop}
             onDragOver={onDragOver}
