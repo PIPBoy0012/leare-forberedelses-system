@@ -18,7 +18,6 @@ export function LokaleNode({ data }) {
           <Handle type="source" position={Position.Bottom} id="b" />
           <Handle type="source" position={Position.Left} id="d" />
           <Handle type="source" position={Position.Right} id="e" />
-          <button className='gemknap absolute text-transparent text-xs bg-transparent w-16 h-5 z-4 rounded-md hover:bg-slate-500 hover:text-black'>Gem Node</button>
         </div>
       );
 }
