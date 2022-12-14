@@ -2,14 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   height: 94.6vh;
   margin: 0;
   padding: 0;
   z-index: 1;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,13 +16,11 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
- 
 
-.Customnode
-{
+.Customnode {
   z-index: 9;
   cursor: move;
   background-color: #fff;
@@ -34,8 +31,7 @@ code {
   font-weight: bolder;
 }
 
-.Customnodeinput
-{
+.Customnodeinput {
   z-index: 9;
   cursor: move;
   background-color: #fff;
@@ -46,8 +42,7 @@ code {
   font-weight: bolder;
 }
 
-.nodenavn
-{
+.nodenavn {
   padding: 10px;
   cursor: move;
   z-index: 10;
@@ -57,8 +52,7 @@ code {
   font-size: large;
 }
 
-.nodenavninput
-{
+.nodenavninput {
   cursor: move;
   z-index: 10;
   background-color: #0041d0;
@@ -68,7 +62,6 @@ code {
   width: 120px;
   text-align: center;
 }
-
 
 .dndflow {
   flex-direction: column;
