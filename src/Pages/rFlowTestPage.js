@@ -5,13 +5,15 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   Controls,
-} from 'reactflow';
-import 'reactflow/dist/style.css';
-import Sidebar from '../Components/Sidebar';
+} from "reactflow";
+import "reactflow/dist/style.css";
+import Sidebar from "../Components/Sidebar";
 import "../index.css";
-import { LokaleNode } from '../Components/CustomNodes/Lokaler';
+import { LokaleNode } from "../Components/CustomNodes/Lokaler";
 
 import "../index.css";
+
+const nodeTypes = { textUpdater: LokaleNode };
 
 const initialNodes = [
   {
@@ -76,7 +78,7 @@ const DnDFlow = () => {
   );
 
   return (
-    <div className="dndflow" >
+    <div className="dndflow">
       <ReactFlowProvider>
         <div className="reactflow-wrapper" ref={reactFlowWrapper} id="test">
           <ReactFlow
@@ -92,11 +94,9 @@ const DnDFlow = () => {
             fitView
           >
             <Controls />
-            
           </ReactFlow>
         </div>
         <Sidebar />
-        
       </ReactFlowProvider>
     </div>
   );
