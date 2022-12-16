@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useMemo } from "react";
+import React, { useState, useRef, useCallback} from 'react';
 import ReactFlow, {
   ReactFlowProvider,
   addEdge,
@@ -9,12 +9,7 @@ import ReactFlow, {
 import "reactflow/dist/style.css";
 import Sidebar, { handleDownloadPdf } from "../Components/Sidebar";
 import "../index.css";
-
-import { LokaleNode } from "../Components/CustomNodes/Lokaler";
-import { TextInputNode } from "../Components/CustomNodes/Customnodes";
-
-import html2canvas from "html2canvas";
-import jsPDF from "jspdf";
+import { LokaleNode } from '../Components/CustomNodes/Lokaler';
 
 const nodeTypes = { textUpdater: LokaleNode };
 
@@ -33,6 +28,7 @@ const initialNodes = [
 ];
 
 let id = 0;
+
 const getId = () => `dndnode_${id++}`;
 
 const DnDFlow = () => {
@@ -96,9 +92,11 @@ const DnDFlow = () => {
             fitView
           >
             <Controls />
+            
           </ReactFlow>
         </div>
         <Sidebar />
+        
       </ReactFlowProvider>
     </div>
   );

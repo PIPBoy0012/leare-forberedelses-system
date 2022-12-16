@@ -48,6 +48,7 @@ export default () => {
       >
         Output Node
       </div>
+<<<<<<< HEAD
       <div
         className="dndnode Test"
         onDragStart={(event) => onDragStart(event, "textUpdater")}
@@ -62,6 +63,12 @@ export default () => {
       >
         <div className="nodenavn">
           <input className="nodenavninput" name="navn" />
+=======
+      <div className="Customnode rounded-b-lg" onDragStart={(event) => onDragStart(event, 'textUpdater')} draggable>
+          <div className="nodenavn">
+            <input className="nodenavninput" name="navn"/>
+          </div>
+>>>>>>> master
         </div>
       </div>
       <div>

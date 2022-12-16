@@ -27,8 +27,6 @@ code {
   text-align: center;
   width: 135px;
   height: 120px;
-  border-radius: 15px;
-  font-weight: bolder;
 }
 
 .Customnodeinput {
@@ -36,10 +34,14 @@ code {
   cursor: move;
   background-color: #fff;
   text-align: center;
-  width: 135px;
+  width: 128px;
   height: 70px;
-  border-radius: 15px;
-  font-weight: bolder;
+  resize: none;
+  overflow: hidden;
+}
+
+.Customnodeinput:focus {
+  outline: none;
 }
 
 .nodenavn {
@@ -48,8 +50,8 @@ code {
   z-index: 10;
   background-color: #0041d0;
   color: #fff;
-  font-weight: bolder;
-  font-size: large;
+  font-size: small;
+  font-weight: normal;
 }
 
 .nodenavninput {
@@ -58,7 +60,7 @@ code {
   background-color: #0041d0;
   color: #fff;
   font-weight: bolder;
-  font-size: large;
+  font-size: small;
   width: 120px;
   text-align: center;
 }
