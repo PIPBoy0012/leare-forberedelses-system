@@ -1,4 +1,4 @@
-const mysql = require('mysql');
+/*const mysql = require('mysql');
 
 const con = mysql.createConnection({
   host: 'skp-dp.sde.dk/phpmyadmin',
@@ -18,4 +18,4 @@ export function SaveNodeIntoDB(nodeTitle, NodeName){
     });
   });
 }
-
+*/
