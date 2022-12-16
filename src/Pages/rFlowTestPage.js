@@ -1,17 +1,17 @@
-import React, { useState, useRef, useCallback} from 'react';
+import React, { useState, useRef, useCallback } from "react";
 import ReactFlow, {
   ReactFlowProvider,
   addEdge,
   useNodesState,
   useEdgesState,
   Controls,
-} from "reactflow";
-import "reactflow/dist/style.css";
-import Sidebar, { handleDownloadPdf } from "../Components/Sidebar";
+} from 'reactflow';
+import 'reactflow/dist/style.css';
+import Sidebar from '../Components/Sidebar';
 import "../index.css";
 import { LokaleNode } from '../Components/CustomNodes/Lokaler';
 
-const nodeTypes = { textUpdater: LokaleNode };
+import "../index.css";
 
 const initialNodes = [
   {
