@@ -27,7 +27,6 @@ code {
   text-align: center;
   width: 135px;
   height: 120px;
-  border-radius: 15px;
   font-weight: bolder;
 }
 
@@ -36,9 +35,8 @@ code {
   cursor: move;
   background-color: #fff;
   text-align: center;
-  width: 135px;
+  width: 130px;
   height: 70px;
-  border-radius: 15px;
   font-weight: bolder;
 }
 

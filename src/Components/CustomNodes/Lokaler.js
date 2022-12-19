@@ -7,12 +7,12 @@ export function LokaleNode({ data }) {
     }, []);
 
     return (
-        <div className="Customnode">
+        <div className="Customnode border border-black rounded-b-md">
           <Handle type="target" position={Position.Top} />
-          <div className="nodenavn">
+          <div className="nodenavn p-3">
             <input className="nodenavninput" name="navn" onChange={onChange} />
           </div>
-          <input className="Customnodeinput" name="beskrivelse" onChange={onChange} />
+          <textarea className="Customnodeinput rounded-b-md overflow-hidden" name="beskrivelse" onChange={onChange} />
           <Handle type="source" position={Position.Bottom} id="b" />
           <Handle type="source" position={Position.Left} id="d" />
           <Handle type="source" position={Position.Right} id="e" />

@@ -7,9 +7,9 @@ function Navbar(){
         <div className='z-auto'>
             <ul>
                 <li><Link className='LiA' to="/Home">Home </Link></li>
-                <li><Link className='LiA' to="/Drawing">Drawing Test</Link></li>
-                <li><Link className='LiA' to="/FlowTest">FlowTest</Link></li>
-                <li><Link className='LiA' to="/Forløb">Forløb</Link></li>
+                <li><Link className='LiA' to="/Drawing">Drawing !Test!</Link></li>
+                <li><Link className='LiA' to="/FlowTest">Forløb</Link></li>
+                <li><Link className='LiA' to="/Forløb">Gammel Forløb !Test !</Link></li>
             </ul>
         </div>
 
