@@ -64,7 +64,18 @@ export default () => {
           <input className="nodenavninput" name="navn" />
         </div>
       </div>
-      <div>
+      <div
+        className="Customnode"
+        onDragStart={(event) => onDragStart(event, "textUpdater")}
+        draggable
+      >
+        <div className="nodenavn">
+          <input className="nodenavninput" name="navn" />
+        </div>
+      </div>
+
+
+      <div className="inset-x-0 bottom-0">
         <button type="button" onClick={handleDownloadPdf}>
           Click me to download pdf
         </button>

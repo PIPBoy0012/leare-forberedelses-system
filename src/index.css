@@ -37,7 +37,7 @@ code {
   text-align: center;
   width: 130px;
   height: 70px;
-  font-weight: bolder;
+  font-size: xx-small;
 }
 
 .nodenavn {
@@ -47,7 +47,6 @@ code {
   background-color: #0041d0;
   color: #fff;
   font-weight: bolder;
-  font-size: large;
 }
 
 .nodenavninput {
@@ -56,7 +55,7 @@ code {
   background-color: #0041d0;
   color: #fff;
   font-weight: bolder;
-  font-size: large;
+  font-size: medium;
   width: 120px;
   text-align: center;
 }
