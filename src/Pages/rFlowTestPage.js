@@ -67,13 +67,14 @@ const DnDFlow = () => {
         x: event.clientX - reactFlowBounds.left,
         y: event.clientY - reactFlowBounds.top,
       });
+
       const newNode = {
         id: getId(),
         type,
         position,
-        data: { label: `${type} node` },
+        data: { label: `${type} node`, nodenavninput: `test` , Customnodeinput: `testing`},
       };
-
+      console.log(id);
       setNodes((nds) => nds.concat(newNode));
     },
     [reactFlowInstance]
